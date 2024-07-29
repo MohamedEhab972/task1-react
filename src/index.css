@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  background-color: #1abc9c;
+}
+.row {
+  @apply flex  flex-wrap;
+}
+
+.font-page {
+  @apply font-medium text-[28px] leading-9;
+}
+#root {
+  overflow: hidden;
+}
+#my-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
